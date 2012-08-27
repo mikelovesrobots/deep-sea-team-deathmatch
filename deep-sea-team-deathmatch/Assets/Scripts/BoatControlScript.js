@@ -1,7 +1,7 @@
 #pragma strict
 
-private var defaultForce : float = 10;
-private var defaultRotation : float = 5;
+private var defaultForce : float = 100;
+private var defaultRotation : float = 50;
 
 function Update () {
   var vertical : float = Input.GetAxisRaw("Vertical");
